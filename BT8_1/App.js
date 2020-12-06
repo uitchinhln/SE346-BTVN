@@ -6,7 +6,7 @@
  * @flow strict-local
  */
 var Platform = require('react-native').Platform;
-var ImagePicker = require('react-native-image-picker');
+import ImagePicker from 'react-native-image-picker';
 import React, {useState} from 'react';
 import {
   StyleSheet,
@@ -15,8 +15,8 @@ import {
   Image,
   TouchableOpacity,
   Modal,
-  Slider,
 } from 'react-native';
+import Slider from '@react-native-community/slider';
 
 const App = (props) => {
   const [star1, setStar1] = useState([]);
@@ -29,13 +29,13 @@ const App = (props) => {
   var putImageIntoList = () => {
     switch (value) {
       case 1:
-        setStar1(...star1, image);
+        setStar1([...star1, image]);
         break;
       case 2:
-        setStar2(...star2, image);
+        setStar2([...star2, image]);
         break;
       case 3:
-        setStar3(...star3, image);
+        setStar3([...star3, image]);
         break;
     }
     setModalVisible(false);
@@ -51,8 +51,6 @@ const App = (props) => {
   };
 
   var setImage = (response) => {
-    console.log('Response = ', response);
-
     if (response.didCancel) {
       console.log('User cancelled image picker');
     } else if (response.error) {
