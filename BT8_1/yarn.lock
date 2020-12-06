@@ -5619,10 +5619,10 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.1.tgz#5b3531bd76a645a4c9fb6e693ed36419e3301339"
   integrity sha512-NAnt2iGDXohE5LI7uBnLnqvLQMtzhkiAOLXTmv+qnF9Ky7xAPcX8Up/xWIhxvLVGJvuLiNc4xQLtuqDRzb4fSA==
 
-react-native-image-picker@^0.22.12:
-  version "0.22.14"
-  resolved "https://registry.yarnpkg.com/react-native-image-picker/-/react-native-image-picker-0.22.14.tgz#804d5653928653d65a8792d5c2516f9376118917"
-  integrity sha1-gE1WU5KGU9Zah5LVwlFvk3YRiRc=
+react-native-image-picker@lasted:
+  version "3.0.0-vnext.4"
+  resolved "https://registry.yarnpkg.com/react-native-image-picker/-/react-native-image-picker-3.0.0-vnext.4.tgz#47f47bf6e9768b8dd375c746a041296ad254b131"
+  integrity sha512-iNjdYsIZuBS7TNbj/ez3oiHJNPPvOvJdHpQYZQ+rrt0FR+YJyIlz4DfXmU93KsPf7AP0euF7JLrcepF8RtJNxg==
 
 react-native@0.63.3:
   version "0.63.3"
