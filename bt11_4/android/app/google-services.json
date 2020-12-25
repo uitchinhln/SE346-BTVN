@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "136239140906",
+    "project_id": "baitapdidong",
+    "storage_bucket": "baitapdidong.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136239140906:android:4e7d5c57201b46ad233353",
+        "android_client_info": {
+          "package_name": "uit.chinhln.bt11_4.bt11_4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "136239140906-rhikkdchm25a5hso3jptl4paap49441l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJeBKSJA9khP5ZLJstnDHVYD05yGIKJmo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "136239140906-rhikkdchm25a5hso3jptl4paap49441l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
